@@ -12,6 +12,9 @@ It is not affiliated with IsThereAnyDeal or GG.deals. Load this instead of store
 
 ### GG.deals prices
 
+<img width="1108" height="343" alt="image" src="https://github.com/user-attachments/assets/14ef7b61-d5f4-4ddb-89ad-045b71c204d6" />
+
+
 IsThereAnyDeal only tracks authorized stores, so Augmented Steam cannot show G2A / Eneba / Instant Gaming / etc. This fork calls the [GG.deals Prices API](https://gg.deals/api/prices/) and shows:
 
 - Official current / historical low
