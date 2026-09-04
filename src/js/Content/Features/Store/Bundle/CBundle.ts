@@ -3,6 +3,7 @@ import CStoreBase from "../Common/CStoreBase";
 import FDRMWarnings from "../Common/FDRMWarnings";
 import FExtraLinksCommon from "../Common/FExtraLinksCommon";
 import FITADPrices from "../Common/FITADPrices";
+import FGGDealsPrices from "../Common/FGGDealsPrices";
 import ContextType from "@Content/Modules/Context/ContextType";
 import type {ContextParams} from "@Content/Modules/Context/Context";
 import FBundleHighlights from "@Content/Features/Store/Bundle/FBundleHighlights";
@@ -18,6 +19,7 @@ export default class CBundle extends CStoreBase {
             FExtraLinksCommon,
             FDRMWarnings,
             FITADPrices,
+            FGGDealsPrices,
             FBundleHighlights
         ]);
 

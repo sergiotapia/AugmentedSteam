@@ -2,6 +2,7 @@ import AppId from "@Core/GameId/AppId";
 import FCustomizer from "../Common/FCustomizer";
 import FDRMWarnings from "../Common/FDRMWarnings";
 import FITADPrices from "../Common/FITADPrices";
+import FGGDealsPrices from "../Common/FGGDealsPrices";
 import FRegionalPricing from "../Common/FRegionalPricing";
 import FAchievementBar from "./FAchievementBar";
 import FBadgeProgress from "./FBadgeProgress";
@@ -82,6 +83,7 @@ export default class CApp extends CStoreBase {
                 FNewQueue,
                 FFullscreenScreenshotView,
                 FITADPrices,
+                FGGDealsPrices,
                 FDLCInfo,
                 FDRMWarnings,
                 FMetacriticUserScore,

@@ -1,5 +1,6 @@
 import FWishlistHighlights from "./FWishlistHighlights";
 import FWishlistITADPrices from "./FWishlistITADPrices";
+import FWishlistGGDealsPrices from "./FWishlistGGDealsPrices";
 import FWishlistUserNotes from "./FWishlistUserNotes";
 import FWishlistStats from "./FWishlistStats";
 import FEmptyWishlist from "./FEmptyWishlist";
@@ -55,6 +56,7 @@ export default class CWishlist extends Context {
             // FAlternativeLinuxIcon,
             FWishlistHighlights,
             FWishlistITADPrices,
+            FWishlistGGDealsPrices,
             FWishlistUserNotes,
             FWishlistStats,
             FEmptyWishlist,

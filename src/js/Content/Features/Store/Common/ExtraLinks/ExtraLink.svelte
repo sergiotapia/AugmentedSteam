@@ -49,6 +49,12 @@
     .itad_ico:hover i {
         background-image: url("extension://img/itad_small_black.png");
     }
+    .ggdeals_ico i {
+        background-image: url("extension://img/ggdeals_small.png");
+    }
+    .ggdeals_ico:hover i {
+        background-image: url("extension://img/ggdeals_small_black.png");
+    }
     .bartervg_ico i {
         background-image: url("extension://img/bartervg.png");
     }

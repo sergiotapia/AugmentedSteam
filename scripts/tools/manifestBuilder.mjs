@@ -40,9 +40,8 @@ export default class ManifestBuilder {
     build(options) {
         let {dev, browser} = options;
 
-        if (browser === "chrome") {
-            this._manifest.key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgSsjOO0ecqqAz6LCjjIoiRUV3VyW4p7mmTg9bC9uUkj28OgVr5+NRJpyI8gJx7Nd43ZEQ8dfwOl8GLnc3+m90jPSUASlliWxG2LQt81IZhtFurCLUELGIfUSr5vPdthRbwgnPrmRc5nylstBORBwYtT0Dos9pBcikHn0QKo87ggWEAQEBGkLXQ8An01LnQopLX4VbZHTfvoTIjPZOiHUVhKhn4aKM70e/u61mGMSp9WDBYrV0/OFKsVC9jWd9s0DX/uOm3KpFhOj4Bx+ehzEklXNuTTQshIC7NSgh+tAJwSa1GpO9jcCWCnFRqjfxwOrdylqIvCy+87fpU7nJ6sHRQIDAQAB";
-        }
+        // Fork: do not reuse the official Chrome signing key so this can be loaded
+        // unpacked next to (or instead of) store Augmented Steam.
 
         if (browser === "chrome" || browser === "edge") {
             this._manifest.permissions.push("offscreen");
@@ -52,7 +51,7 @@ export default class ManifestBuilder {
         if (browser === "firefox") {
             this._manifest.browser_specific_settings = {
                 gecko: {
-                    id: "{1be309c5-3e4f-4b99-927d-bb500eb4fa88}",
+                    id: "{7e4a2c91-0b5d-4f18-9c3a-a6d8e21b4c77}",
                     strict_min_version: "140.0",
                     data_collection_permissions: {
                         required: ["none"],

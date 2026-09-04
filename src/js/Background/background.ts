@@ -3,6 +3,7 @@ import IndexedDB from "@Background/Db/IndexedDB";
 import SteamCommunityApi from "./Modules/Community/SteamCommunityApi";
 import SteamStoreApi from "./Modules/Store/SteamStoreApi";
 import ITADApi from "./Modules/IsThereAnyDeal/ITADApi";
+import GGDealsApi from "./Modules/GGDeals/GGDealsApi";
 import AugmentedSteamApi from "./Modules/AugmentedSteam/AugmentedSteamApi";
 import UserNotesApi from "./Modules/UserNotes/UserNotesApi";
 import browser, {type Runtime, type Storage as ns} from "webextension-polyfill";
@@ -59,6 +60,7 @@ const messageHandlers: MessageHandlerInterface[] = [
     new SteamCommunityApi(),
     new InventoryApi(),
     new ITADApi(),
+    new GGDealsApi(),
     new SteamStoreApi(),
     new UserNotesApi(),
     new VaporLensApi(),

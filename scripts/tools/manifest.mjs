@@ -1,8 +1,8 @@
 
 export default {
-    name: "Augmented Steam",
-    short_name: "AS",
-    description: "Augments your Steam Experience",
+    name: "Augmented Steam + GG.deals",
+    short_name: "AS+GG",
+    description: "Augments your Steam Experience, including GG.deals official and keyshop prices",
     icons: {
         128: "img/logo/as128.png",
         48: "img/logo/as48.png",
@@ -21,7 +21,8 @@ export default {
     host_permissions: [
         "*://*.steampowered.com/*",
         "*://steamcommunity.com/*",
-        "*://*.isthereanydeal.com/"
+        "*://*.isthereanydeal.com/",
+        "https://api.gg.deals/*"
     ],
     optional_permissions: [],
     web_accessible_resources: [

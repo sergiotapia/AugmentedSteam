@@ -58,6 +58,14 @@ export interface SettingsSchema {
     regional_countries: string[],
     restore_price_cut: boolean,
 
+    showggdeals: boolean,
+    showggdeals_onwishlist: boolean,
+    showggdeals_keyshops: boolean,
+    showggdeals_official: boolean,
+    ggdeals_api_key: string,
+    ggdeals_region: "auto"|string,
+    showggdealslinks: boolean,
+
     show_es_homepagetabs: boolean,
     showmarkettotal: boolean,
     showmcus: boolean,

@@ -7,4 +7,7 @@ export default {
     ITADServer: "https://isthereanydeal.com",
     ITADClientId: "5fe78af07889f43a",
     ITADDiscord: "https://discord.gg/yn57q7f",
+    GGDealsApiHost: "https://api.gg.deals",
+    GGDealsServer: "https://gg.deals",
+    GGDealsApiDocs: "https://gg.deals/api/",
 } as const;

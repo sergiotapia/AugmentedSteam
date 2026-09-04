@@ -292,7 +292,12 @@
         "bundled": "In bundle:",
         "with_voucher": "with voucher __voucher__",
         "store": "at&nbsp;__store__",
-        "bundle_count": "__count__ times"
+        "bundle_count": "__count__ times",
+        "official": "Official:",
+        "keyshops": "Keyshops:",
+        "official_low": "Official low:",
+        "keyshop_low": "Keyshop low:",
+        "ggdeals": "GG.deals"
     },
     "web_browser_chat": "Web browser chat",
     "steam_client_chat": "Steam Client chat",
@@ -423,6 +428,7 @@
         "lowestprice": "Show on app pages",
         "owned": "Items you own",
         "itadlinks": "Show IsThereAnyDeal links",
+        "ggdealslinks": "Show GG.deals links",
         "steamdb": "Show SteamDB links",
         "profile_link_images_color": "Colored",
         "show_view_in_library": "Show \"View in Library\" button",
@@ -518,7 +524,21 @@
         "footer_fork": "a fork by IsThereAnyDeal",
         "footer_author": "original author jshackles",
         "headers": {
-            "itad_price_info": "Price Information from IsThereAnyDeal"
+            "itad_price_info": "Price Information from IsThereAnyDeal",
+            "ggdeals_price_info": "Price information from GG.deals"
+        },
+        "ggdeals": {
+            "show": "Show GG.deals prices on app pages",
+            "show_wishlist": "Show GG.deals prices when hovering over wishlist items",
+            "show_keyshops": "Include keyshop (grey-market) prices",
+            "show_official": "Include official store prices from GG.deals",
+            "api_key": "GG.deals API key",
+            "api_key_help": "Create a free personal key at gg.deals/api (account required). The key stays in your browser and is only sent to api.gg.deals.",
+            "api_key_placeholder": "Paste your API key",
+            "region": "GG.deals region",
+            "region_auto": "Match Steam country",
+            "keyshop_warning": "Keyshops can sell region-locked, recycled, or ToS-risky keys. IsThereAnyDeal remains the authorized-store source; GG.deals is how you also see the grey-market number.",
+            "setup_hint": "Add your GG.deals API key to see official and keyshop prices."
         },
         "price": {
             "restore_price_cut": "Restore price cut if Steam shows only icon (on app pages)"

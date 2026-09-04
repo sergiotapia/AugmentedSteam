@@ -1,3 +1,10 @@
+4.8.4: |
+  Unofficial fork: add GG.deals prices next to IsThereAnyDeal.
+  - Shows official and keyshop current/historical lows on app, package, bundle, and wishlist pages
+  - Paste a free personal API key from https://gg.deals/api/ in Price options
+  - Keyshop prices are optional; ITAD still only covers authorized stores
+  - Adds a GG.deals extra link on store pages
+
 4.8.3: |
   Fix Quick sell/Instant sell buttons in inventory (thanks breezeFur)
 

@@ -46,6 +46,7 @@
 
     const icons = {
         itad: ExtensionResources.getURL("img/itad.png"),
+        ggdeals: ExtensionResources.getURL("img/ggdeals.png"),
         steamdb: ExtensionResources.getURL("img/ico/steamdb.png"),
     };
 
@@ -187,6 +188,7 @@
                             <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/{appid}/header_292x136.jpg" class="banner" alt="Banner" loading="lazy" />
                         </a>
                         <a href="https://isthereanydeal.com/steam/app/{appid}/" target="_blank"><img src={icons.itad} alt="ITAD" /></a>
+                        <a href="https://gg.deals/steam/app/{appid}/" target="_blank"><img src={icons.ggdeals} alt="GG.deals" /></a>
                         <a href="https://steamdb.info/app/{appid}/" target="_blank"><img src={icons.steamdb} alt="SteamDB" /></a>
                         {#if canEdit}
                             <!-- TODO use button, cba to style button right now -->

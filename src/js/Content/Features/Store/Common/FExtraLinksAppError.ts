@@ -22,6 +22,7 @@ export default class FExtraLinksAppError extends Feature<CApp> {
             </div>`);
 
         const hasExtraLinks =  Settings.showitadlinks
+            || Settings.showggdealslinks
             || Settings.showsteamdb
             || Settings.showbartervg
             || Settings.showsteamcardexchange

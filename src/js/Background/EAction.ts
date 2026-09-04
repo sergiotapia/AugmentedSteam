@@ -1,6 +1,7 @@
 
 export const enum EAction {
     Prices = "prices",
+    GGDeals_Prices = "ggdeals.prices",
     DlcInfo = "dlcinfo",
     StorePageData = "storepagedata",
     StorePageData_Expire = "storepagedata.expiry",

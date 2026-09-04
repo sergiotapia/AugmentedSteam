@@ -6,10 +6,41 @@
 
 [![Discord](https://img.shields.io/discord/301903094080339968?label=Discord&logo=discord)](https://discord.gg/yn57q7f)
 
+This is an **unofficial fork** of [Augmented Steam](https://github.com/IsThereAnyDeal/AugmentedSteam). It keeps the original IsThereAnyDeal authorized-store prices and adds **GG.deals** official + keyshop prices on Steam store pages.
+
+It is not affiliated with IsThereAnyDeal or GG.deals. Load this instead of store Augmented Steam (do not run both).
+
+### GG.deals prices
+
+IsThereAnyDeal only tracks authorized stores, so Augmented Steam cannot show G2A / Eneba / Instant Gaming / etc. This fork calls the [GG.deals Prices API](https://gg.deals/api/prices/) and shows:
+
+- Official current / historical low
+- Keyshop current / historical low (optional)
+
+**You need a free personal API key:**
+
+1. Create an account at [gg.deals](https://gg.deals/)
+2. Generate a key at [gg.deals/api](https://gg.deals/api/)
+3. Paste it in the extension options → **Price** → GG.deals
+
+The key stays in browser storage and is only sent to `api.gg.deals`. Keyshops can sell region-locked or ToS-risky keys; ITAD remains the safer authorized-store source.
+
+### Load unpacked
+
+```
+npm install
+npm run build chrome    # or: npm run build firefox
+```
+
+Chrome: `chrome://extensions` → Developer mode → Load unpacked → `dist/dev.chrome`  
+Firefox: `about:debugging` → This Firefox → Load Temporary Add-on → `dist/dev.firefox/manifest.json`
+
+---
+
 Augmented Steam is a browser extension by [IsThereAnyDeal](https://isthereanydeal.com/) that improves your experience on the [Steam](https://store.steampowered.com/) platform by providing helpful information and tons of customization options.
 
 Some selected features:
-- Price details (current best, historical low) for any game or DLC sourced from many authorized stores
+- Price details (current best, historical low) for any game or DLC sourced from many authorized stores, plus GG.deals official and keyshop prices in this fork
 - More visible highlighting of games you own or have wishlisted or ignored (also works with your IsThereAnyDeal Waitlist and Collection!)
 - Fine-tuned product search with search filters such as review count / score and Early Access
 - Sort and filter options for the market, games, friends, groups, achievements, badges and reviews

@@ -55,6 +55,14 @@ export const DefaultSettings: Readonly<SettingsSchema> = {
     regional_countries: ["us", "gb", "fr", "br", "au", "jp"],
     restore_price_cut: false,
 
+    showggdeals: true,
+    showggdeals_onwishlist: true,
+    showggdeals_keyshops: true,
+    showggdeals_official: true,
+    ggdeals_api_key: "",
+    ggdeals_region: "auto",
+    showggdealslinks: true,
+
     show_es_homepagetabs: true,
     showmarkettotal: false,
     showmcus: true,

@@ -10,6 +10,7 @@
         __options_exfgls,
         __options_hltb,
         __options_itadlinks,
+        __options_ggdealslinks,
         __options_metacritic,
         __options_opencritic,
         __options_pcgw,
@@ -78,6 +79,7 @@
 
     <OptionGroup>
         <Toggle bind:value={$settings.showitadlinks}>{L(__options_itadlinks)}</Toggle>
+        <Toggle bind:value={$settings.showggdealslinks}>{L(__options_ggdealslinks)}</Toggle>
         <Toggle bind:value={$settings.showsteamdb}>{L(__options_steamdb)}</Toggle>
         <Toggle bind:value={$settings.showbartervg}>{L(__options_showbartervg)}</Toggle>
         <Toggle bind:value={$settings.showsteamcardexchange}>{L(__options_storeSteamcards)}</Toggle>

@@ -16,6 +16,12 @@
     </ExtraLink>
 {/if}
 
+{#if Settings.showggdealslinks}
+    <ExtraLink href="https://gg.deals/steam/{type}/{gameid}/" icon="ggdeals_ico" {isCommunity}>
+        {isCommunity ? "GG.deals" : L(__viewOnWebsite, {"website": "GG.deals"})}
+    </ExtraLink>
+{/if}
+
 {#if Settings.showsteamdb}
     <ExtraLink href="https://steamdb.info/{type}/{gameid}/" icon="steamdb_ico" {isCommunity}>
         {isCommunity ? "SteamDB" : L(__viewOnWebsite, {"website": "SteamDB"})}
